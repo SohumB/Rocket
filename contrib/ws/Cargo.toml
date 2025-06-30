@@ -1,6 +1,6 @@
 [package]
 name = "rocket_ws"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Sergio Benitez <sb@sergio.bz>"]
 description = "WebSocket support for Rocket."
 documentation = "https://api.rocket.rs/master/rocket_ws/"
@@ -23,7 +23,7 @@ tungstenite = ["tokio-tungstenite"]
 tokio-tungstenite = { version = "0.24", optional = true }
 
 [dependencies.rocket]
-version = "0.6.0-dev"
+version = "0.5.1"
 path = "../../core/lib"
 default-features = false
 
